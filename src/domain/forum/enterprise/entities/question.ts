@@ -32,7 +32,7 @@ export class Question extends Entity<QuestionProps> {
   }
 
   get slug() {
-    return this.props.content
+    return this.props.slug
   }
 
   get createdAt() {
