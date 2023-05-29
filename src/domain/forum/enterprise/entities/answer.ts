@@ -12,7 +12,7 @@ export interface AnswerProps {
 
 export class Answer extends Entity<AnswerProps> {
   get authorId() {
-    return this.props.content
+    return this.props.authorId
   }
 
   get questionId() {
